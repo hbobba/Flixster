@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E2549C521F92CB200431DBF /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2549C421F92CB200431DBF /* MovieDetailsViewController.swift */; };
 		5E7DFD9221F52C54004AD432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7DFD9121F52C54004AD432 /* AppDelegate.swift */; };
 		5E7DFD9721F52C54004AD432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7DFD9521F52C54004AD432 /* Main.storyboard */; };
 		5E7DFD9921F52C55004AD432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E7DFD9821F52C55004AD432 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		42DDF7A9CB209F15EFF9616E /* Pods_FlixsterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixsterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2549C421F92CB200431DBF /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		5E7DFD8E21F52C54004AD432 /* Flixster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flixster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7DFD9121F52C54004AD432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E7DFD9621F52C54004AD432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				5E7DFD9D21F52C55004AD432 /* Info.plist */,
 				5E7DFDBF21F53054004AD432 /* MoviesViewController.swift */,
 				5E7DFDC121F536BC004AD432 /* MovieCell.swift */,
+				5E2549C421F92CB200431DBF /* MovieDetailsViewController.swift */,
 			);
 			path = Flixster;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E2549C521F92CB200431DBF /* MovieDetailsViewController.swift in Sources */,
 				5E7DFD9221F52C54004AD432 /* AppDelegate.swift in Sources */,
 				5E7DFDC021F53054004AD432 /* MoviesViewController.swift in Sources */,
 				5E7DFDC221F536BC004AD432 /* MovieCell.swift in Sources */,
